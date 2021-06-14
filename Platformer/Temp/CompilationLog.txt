@@ -1,4 +1,26 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-225a369e6c2dbedbbace223356a24886
+# Starting compiling UnityEngine.UI.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2e8da3c914454af7aaea1cb55707f521
+# Starting compiling Unity.InternalAPIEngineBridge.001.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e4478a0a9f5d63d338eb954d52db43c7
+# Starting compiling Unity.2D.PixelPerfect.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9ecbddf96fb2fc41a822b7d055b6f74d
+# Starting compiling Unity.Timeline.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7cfb736ac60aacbcda2a77f15574d703
+# Starting compiling Unity.TextMeshPro.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a1f0fab23c308f5bb99bc3716c311adc
+# Starting compiling Unity.Mathematics.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7b2052e9bace6bbe7a064b914ff7e4cd
+# Starting compiling Unity.2D.IK.Runtime.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-07ee8ca66348746318f684c832016532
+# Starting compiling Unity.2D.Animation.Triangle.Runtime.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-751c0ce0d829ca40eb1c75bcfb703185
+# Starting compiling Unity.2D.Common.Runtime.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-39fb1d05ef7798030a814a544d1ca458
+# Starting compiling Unity.2D.Animation.Runtime.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9cbdab857a167f321a817f64a8530659
+# Starting compiling Unity.2D.SpriteShape.Runtime.dll
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c70da8b13f078e38fb0462d7436ee79e
 # Starting compiling Assembly-CSharp.dll
-/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f4f2628c0841aa7e7a180236f5a846cd
-# Starting compiling Assembly-CSharp-Editor.dll
-/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bca91c527e4887296b20235fd385cfd0
+/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-752ca34abc155946e90cffb239ccea53
