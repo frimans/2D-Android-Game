@@ -37,14 +37,21 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Prefabs\DiamondBehaviour.cs" />
+     <Compile Include="Assets\SliderControl.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+     <Compile Include="Assets\ObjectInstantiating.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\player_control.cs" />
+     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\MeshCopy.cs" />
+     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\Speen.cs" />
+     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\PolyWobbler.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\HardLight2D\ReadMe - FAQ.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -59,6 +66,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\HardLight2D\Material\AdditiveShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -280,6 +288,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="HardLight2D">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -656,6 +667,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
@@ -674,8 +688,8 @@
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    <Reference Include="Unity.Toolchain.Linux-x86_64">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -685,6 +699,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -721,6 +738,9 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

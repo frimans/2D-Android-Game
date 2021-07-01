@@ -47,13 +47,13 @@
 29            android:name="com.unity3d.player.UnityPlayerActivity"
 29-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:15-68
 30            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-30-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:182-363
+30-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:180-361
 31            android:hardwareAccelerated="false"
-31-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:364-399
+31-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:362-397
 32            android:launchMode="singleTask"
-32-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:150-181
-33            android:screenOrientation="fullSensor"
-33-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:111-149
+32-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:148-179
+33            android:screenOrientation="portrait"
+33-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:111-147
 34            android:theme="@style/UnityThemeSelector" >
 34-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:69-110
 35            <intent-filter>
@@ -103,7 +103,7 @@
 58-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-101
 59            android:name="unity.build-id"
 59-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-60            android:value="959e46e1-fc85-4113-9b12-85da4c6dcd25" />
+60            android:value="69ff8d3e-aab9-49a8-b976-a98d7566dfef" />
 60-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 61    </application>
 62

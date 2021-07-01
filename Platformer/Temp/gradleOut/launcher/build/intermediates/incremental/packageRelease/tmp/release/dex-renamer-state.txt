@@ -1,4 +1,4 @@
-#Mon Jun 14 23:06:49 EEST 2021
+#Thu Jul 01 23:02:07 EEST 2021
 base.0=/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
