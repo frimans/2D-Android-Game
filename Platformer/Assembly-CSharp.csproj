@@ -40,16 +40,19 @@
      <Compile Include="Assets\Joystick Pack\Prefabs\DiamondBehaviour.cs" />
      <Compile Include="Assets\SliderControl.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+     <Compile Include="Assets\Scene_loader.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\ObjectInstantiating.cs" />
+     <Compile Include="Assets\Points_andgameover.cs" />
+     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\Speen.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\PolyWobbler.cs" />
      <Compile Include="Assets\player_control.cs" />
      <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
      <Compile Include="Assets\HardLight2D\Demo\DemoScripts\MeshCopy.cs" />
-     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\Speen.cs" />
-     <Compile Include="Assets\HardLight2D\Demo\DemoScripts\PolyWobbler.cs" />
+     <Compile Include="Assets\Wall_behaviour.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\HardLight2D\ReadMe - FAQ.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -286,11 +289,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="HardLight2D">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

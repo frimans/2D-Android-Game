@@ -3,8 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - DiamondBehaviour
     - ObjectInstantiating
+    - Points_andgameover
+    - Scene_loader
     - SliderControl
-    - player_control
+    - Wall_behaviour
     HardLight2D.dll:
     - HardLight2D
     Unity.2D.Animation.Editor.dll:
@@ -37,6 +39,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -61,6 +64,83 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1486}
+    - Class: 114
+      Script: {instanceID: 1592}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1742}
+    - Class: 114
+      Script: {instanceID: 1858}
+    - Class: 114
+      Script: {instanceID: 2664}
+    - Class: 114
+      Script: {instanceID: 2826}
+    - Class: 114
+      Script: {instanceID: 2872}
+    - Class: 114
+      Script: {instanceID: 3042}
+    - Class: 114
+      Script: {instanceID: 3286}
+    - Class: 114
+      Script: {instanceID: 3324}
+    - Class: 114
+      Script: {instanceID: 3750}
+    - Class: 114
+      Script: {instanceID: 5170}
+    - Class: 114
+      Script: {instanceID: 5206}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Start_screen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
     - Class: 50
@@ -74,37 +154,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1586}
+      Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1778}
     - Class: 114
-      Script: {instanceID: 1736}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1850}
+      Script: {instanceID: 2242}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 2826}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 2864}
+      Script: {instanceID: 3042}
     - Class: 114
-      Script: {instanceID: 3032}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3276}
+      Script: {instanceID: 3324}
     - Class: 114
-      Script: {instanceID: 3314}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 4736}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 5098}
-    - Class: 114
-      Script: {instanceID: 22512}
+      Script: {instanceID: 5170}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -224,6 +302,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Scene_loader
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -412,7 +496,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: c038266e32fa3e68b0e4a6cb5378d011
+      Hash: b36d22997fd16ee69aff566fd0a86ccf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectInstantiating
@@ -460,10 +544,22 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Points_andgameover
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Speen
   - hash:
       serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
@@ -536,6 +632,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FloatingJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 91be2c6dbb259a8b4c595dc8db07f67f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PolyWobbler
   - hash:
       serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
@@ -682,6 +784,24 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 49e9b2fbc2aa20540e96d250cf9f9b61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Wall_behaviour
+  - hash:
+      serializedVersion: 2
+      Hash: df8d83ea43f0641d0dfa44c2b4836318
+    assemblyName: HardLight2D.dll
+    namespaceName: 
+    className: HardLight2D
+  - hash:
+      serializedVersion: 2
+      Hash: c725bfe30faf86873dd9e8973d952a30
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeshCopy
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -716,31 +836,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: df8d83ea43f0641d0dfa44c2b4836318
-    assemblyName: HardLight2D.dll
-    namespaceName: 
-    className: HardLight2D
-  - hash:
-      serializedVersion: 2
-      Hash: c725bfe30faf86873dd9e8973d952a30
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MeshCopy
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Speen
-  - hash:
-      serializedVersion: 2
-      Hash: 91be2c6dbb259a8b4c595dc8db07f67f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PolyWobbler
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Start_screen.unity
   - Assets/Scenes/SampleScene.unity
   playerPath: /home/severi/Game_projects/2D/Platformer/test1.apk

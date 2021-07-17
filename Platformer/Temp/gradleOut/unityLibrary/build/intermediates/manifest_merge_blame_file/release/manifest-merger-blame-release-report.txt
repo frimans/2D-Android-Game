@@ -103,7 +103,7 @@
 58-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-101
 59            android:name="unity.build-id"
 59-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-60            android:value="69ff8d3e-aab9-49a8-b976-a98d7566dfef" />
+60            android:value="ab491e31-5862-454c-9afa-dcd6ad74799c" />
 60-->/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 61    </application>
 62
