@@ -6,7 +6,19 @@ using UnityEngine.SceneManagement;
 public class Scene_loader : MonoBehaviour
 {
     public void LoadScene(){
-        SceneManager.LoadScene("SampleScene");
+        // Current secene
+        Scene scene = SceneManager.GetActiveScene();
+
+        if(scene.name == "Start_screen"){
+            SceneManager.LoadScene("LevelMenu");
+
+        }
+        else{
+            SceneManager.LoadScene("SampleScene");
+
+        }
+
+        
     }
     
 }

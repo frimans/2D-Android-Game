@@ -18,7 +18,7 @@ public class Points_andgameover : MonoBehaviour
     {
         //Check for a match with the specified name on any GameObject that collides with your GameObject
         Debug.Log("Hit something! Ouch!");
-        SceneManager.LoadScene("Start_screen");
+        SceneManager.LoadScene("LevelMenu");
 
 
     }

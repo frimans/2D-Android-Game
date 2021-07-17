@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 29
-        applicationId 'com.DefaultCompany.Platformer'
+        applicationId 'com.Sepposoft.MusicDodge'
         ndk {
             abiFilters 'armeabi-v7a'
         }

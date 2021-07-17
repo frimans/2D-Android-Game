@@ -9,7 +9,7 @@ INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/s
 INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 	package
-		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-109
+		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-104
 		INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	android:versionName
@@ -17,7 +17,7 @@ INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/s
 		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 		INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:110-156
+		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:105-151
 	android:versionCode
 		INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
@@ -25,7 +25,7 @@ INJECTED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/s
 	xmlns:android
 		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
 	android:installLocation
-		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:157-197
+		ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:152-192
 supports-screens
 ADDED from /home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
 	android:largeScreens
