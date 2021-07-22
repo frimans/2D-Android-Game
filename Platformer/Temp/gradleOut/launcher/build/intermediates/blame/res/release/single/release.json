@@ -8,28 +8,20 @@
         "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-hdpi/app_icon.png"
     },
     {
-        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-mdpi_app_icon_round.png.flat",
-        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
-    },
-    {
-        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxxhdpi_app_icon_round.png.flat",
-        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
-    },
-    {
-        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxhdpi_app_icon_round.png.flat",
-        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
-    },
-    {
-        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xhdpi_app_icon_round.png.flat",
-        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
-    },
-    {
         "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xhdpi_app_icon.png.flat",
         "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
     },
     {
         "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxxhdpi_app_icon.png.flat",
         "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-mdpi_app_icon_round.png.flat",
+        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
+    },
+    {
+        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
     },
     {
         "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-mdpi_app_icon.png.flat",
@@ -40,11 +32,19 @@
         "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
     },
     {
+        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
+    },
+    {
         "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-hdpi_app_icon_round.png.flat",
         "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
     },
     {
         "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-ldpi_app_icon_round.png.flat",
         "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
+    },
+    {
+        "merged": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/build/intermediates/res/merged/release/mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
     }
 ]

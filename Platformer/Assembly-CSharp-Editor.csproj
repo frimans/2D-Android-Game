@@ -38,9 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
+     <Compile Include="Assets\HardLight2D\Editor\HardLight2DEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
-     <Compile Include="Assets\HardLight2D\Editor\HardLight2DEditor.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/severi/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -290,14 +291,17 @@
     <Reference Include="log4netPlastic">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="HardLight2D">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="HardLight2D">
-        <HintPath>/home/severi/Game_projects/2D/Platformer/Assets/HardLight2D/Scripts/HardLight2D.dll</HintPath>
+    <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+        <HintPath>/home/severi/Game_projects/2D/Platformer/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/home/severi/Game_projects/2D/Platformer/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

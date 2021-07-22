@@ -54,9 +54,11 @@
                 {
                     "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/values/ids.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
                     },
                     "to": {
                         "startLines": "2",
@@ -69,11 +71,11 @@
                 {
                     "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,-1",
-                        "startColumns": "2,-1",
-                        "startOffsets": "53,-1",
-                        "endColumns": "45,-1",
-                        "endOffsets": "96,-1"
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,99",
+                        "endColumns": "45,65",
+                        "endOffsets": "96,162"
                     },
                     "to": {
                         "startLines": "3,4",
@@ -86,9 +88,12 @@
                 {
                     "source": "/home/severi/Game_projects/2D/Platformer/Temp/gradleOut/launcher/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "-1,-1,-1",
-                        "startColumns": "-1,-1,-1",
-                        "startOffsets": "-1,-1,-1"
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
                     },
                     "to": {
                         "startLines": "5,7,10",
