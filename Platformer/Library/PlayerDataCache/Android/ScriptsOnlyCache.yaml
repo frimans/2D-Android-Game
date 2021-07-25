@@ -91,7 +91,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4622}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5614}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,7 +182,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5230}
     - Class: 114
-      Script: {instanceID: 17446}
+      Script: {instanceID: 23374}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -381,7 +381,7 @@ ScriptsOnlyBuild:
     className: Joystick
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scene_loader
@@ -639,7 +639,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 220470d9f7b3c4b0133faa9b4fcaa4a1
+      Hash: d52ff0997a8e12d8142924602b7740a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Points_andgameover
@@ -948,4 +948,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Start_screen.unity
   - Assets/Scenes/LevelMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/severi/Game_projects/2D/Platformer/test1.apk
+  playerPath: /home/severi/Game_projects/2D/Platformer/test2.apk
