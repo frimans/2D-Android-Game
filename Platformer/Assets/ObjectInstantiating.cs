@@ -36,13 +36,7 @@ public class ObjectInstantiating : MonoBehaviour
         //TimeText.text = Game_time.ToString();
         TimeText.text = Game_time.ToString("#.00");
 
-        if(Game_time >  highscore){
-            PlayerPrefs.SetFloat("HighScore", Game_time);
-            HighScoreText.text = Game_time.ToString("#.00");
-
-
-
-        }
+        
 
 
 
@@ -54,6 +48,14 @@ public class ObjectInstantiating : MonoBehaviour
         }
 
         if(Start_screen == 0){
+
+            if(Game_time >  highscore){
+            PlayerPrefs.SetFloat("HighScore", Game_time);
+            HighScoreText.text = Game_time.ToString("#.00");
+
+
+
+        }
             if((Game_time < 5) & (0.3f < timer)){
             
             Instantiate(myPrefab, new Vector3(Random.Range(-1.8f, 1.8f), 6, 0), Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f)));
