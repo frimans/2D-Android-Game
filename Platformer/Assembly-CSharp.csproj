@@ -59,6 +59,7 @@
      <Compile Include="Assets\Wall_behaviour.cs" />
      <Compile Include="Assets\HardLight2D\Demo\DemoScripts\MeshCopy.cs" />
      <Compile Include="Assets\WaitFunction.cs" />
+     <Compile Include="Assets\LevelMenuScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\HardLight2D\ReadMe - FAQ.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

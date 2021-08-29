@@ -11,16 +11,20 @@ public class ObjectInstantiating : MonoBehaviour
     public GameObject spacer;
     //public Text TimeText;
     public TMPro.TMP_Text TimeText;
+    public TMPro.TMP_Text HighScoreText;
     public float prev = 0.0f;
     public float timer = 0.0f;
     public float Game_time = 0.0f;
     public float Empty = 0.0f;
     public int Start_screen;
+    public float highscore;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        highscore = PlayerPrefs.GetFloat("HighScore", 0);
+        HighScoreText.text = highscore.ToString("#.00");
     }
 
     // Update is called once per frame
@@ -31,6 +35,16 @@ public class ObjectInstantiating : MonoBehaviour
 
         //TimeText.text = Game_time.ToString();
         TimeText.text = Game_time.ToString("#.00");
+
+        if(Game_time >  highscore){
+            PlayerPrefs.SetFloat("HighScore", Game_time);
+            HighScoreText.text = Game_time.ToString("#.00");
+
+
+
+        }
+
+
 
         if((Start_screen ==1) & (0.3f < timer)){
 

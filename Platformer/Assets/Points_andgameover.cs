@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Points_andgameover : MonoBehaviour
 {
@@ -17,10 +18,13 @@ public class Points_andgameover : MonoBehaviour
     public AudioSource Boom;
     public AudioSource Music;
     public GameObject FailMenu;
+    public TMPro.TMP_Text TimeText;
+    public float highscore;
 
     void Start()
     {
         FailMenu.SetActive(false);
+        
     }
 
     
@@ -54,6 +58,8 @@ public class Points_andgameover : MonoBehaviour
     {
         Time.timeScale = 0f;
         FailMenu.SetActive(true);
+        
+        
         
     }
 

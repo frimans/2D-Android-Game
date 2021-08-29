@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CFX_LightIntensityFade
     - DiamondBehaviour
     - FailMenucontrol
+    - LevelMenuScript
     - ObjectInstantiating
     - Points_andgameover
     - Scene_loader
@@ -92,6 +93,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4622}
     - Class: 114
       Script: {instanceID: 5614}
+    - Class: 114
+      Script: {instanceID: 26278}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -182,7 +185,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5230}
     - Class: 114
-      Script: {instanceID: 23374}
+      Script: {instanceID: 17506}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -585,7 +588,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 1402eb4c7dbf6d1eda154310b8623f51
+      Hash: c7f44ccaa81c8de26e666cb26b352ad6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ObjectInstantiating
@@ -639,7 +642,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: d52ff0997a8e12d8142924602b7740a7
+      Hash: 97016e40d003e9caf5e77bd3120d5de2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Points_andgameover
@@ -943,6 +946,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: f5b708210401f94798933d3ea8db7463
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelMenuScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Start_screen.unity
